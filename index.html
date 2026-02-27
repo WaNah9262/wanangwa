@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Wanangwa</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            1Nah
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="bar">
+                <i class="open fa-solid fa-bars"></i>
+                <i class="close fa-solid fa-xmark"></i>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="home" id="home">
+            <div class="left text">
+                <span>Hello, I'm</span><br>
+                <h1>WANANGWA</h1>
+                <h3>I'm a <span class="typing1"></span></h3>
+                <div class="buttons">
+                    <button class="btn"><a href="#contact">Contact me</a></button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="title aboutTxt">
+                <span>About me</span>
+            </div>
+            <div class="container">
+                <div class="img">
+                    <img src="profile.png" alt="">
+                </div>
+                <div class="aboutText">
+                    <h2>Hello, I'm Wanangwa & I'm a <span class="typing2"></span></h2>
+                    <p>I am a passionate software developer with a strong interest in building clean, functional, and user-friendly web applications. I enjoy turning ideas into real-world solutions using modern technologies.<br />
+<br /> I have experience working with HTML, CSS, JavaScript, and backend concepts, and I am continuously improving my skills through hands-on projects and learning. I value writing maintainable code, solving problems logically, and creating responsive designs. <br /></p>
+                    <div class="buttons">
+                        <button class="btn">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="servicesTxt title">
+                <span>Services</span>
+            </div>
+            <div class="serviceBox">
+                <div class="box">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <div class="text">Marketing</div>
+                            <p>I help individuals and businesses build modern, responsive, and user-focused websites that improve online presence and engagement.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <div>
+                            <div class="text">Analytics</div>
+                            <p>I implement website analytics tools to track traffic, user behavior, and conversions. This data helps identify what’s working, what’s not, and where improvements can increase engagement and growth.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-brush"></i>
+                        </div>
+                        <div>
+                            <div class="text">Web Designing</div>
+                            <p>Web design is about more than appearance—it’s about how users interact with a website. I create clean and responsive designs that are easy to navigate and visually balanced.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skillBox">
+                <div class="left">
+                    <div class="text">
+                        My Skills
+                    </div>
+                    <p>I design and develop modern websites using clean code, responsive layouts, and user-centered design to create effective and engaging digital experiences.</p>
+                    <div class="buttons">
+                        <button class="btn">Read more</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="progress html">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+                    <div class="progress css">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+                    <div class="progress js">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+                    <div class="progress python">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="title">
+                <span>Contact Me</span>
+            </div>
+            <div class="contactBox">
+                <div class="left">
+                    <span>Message Me</span>
+                    <form action="submit">
+                        <div class="genInfo">
+                            <input type="text" placeholder="Name" class="name">
+                            <input type="email" placeholder="Email" class="email">
+                        </div>
+                        <div class="subject">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="message">
+                            <textarea name="message" rows="8" placeholder="Message" required></textarea>
+                        </div>
+                        <div>
+                            <button class="btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <span>Get in Touch</span>
+                    <p>Ready to start your next project? Get in touch today and let’s build a website that delivers real results.</p>
+                    <div class="infoBox name">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="user">
+                            <div>Name</div>
+                            <div>Wanangwa Mugala</div>
+                        </div>
+                    </div>
+                    <div class="infoBox email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="user">
+                            <div>Email</div>
+                            <div>wanangwamugala@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="infoBox address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="user">
+                            <div>Address</div>
+                            <div>Lilongwe, Malawi</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy">
+            Copyright &copy; 2026 Wanangwa Mugala
+        </div>
+        <div class="socialIcons">
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-square-facebook" href="https://www.facebook.com/aug.ust.732515"></i></a>
+            <a><i class="fa-brands fa-square-whatsapp" href="wa.me/+265888280886"></i></a>
+        </div>
+    </div>
+
+    <div class="topBtn">
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+
+
+    <script src="scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+</body>
+</html>
